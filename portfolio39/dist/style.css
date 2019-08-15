@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+header {
+  position: absolute;
+  z-index: 10;
+  width: 100%;  
+}
+
+.navbar-toggler {
+  border-color: #FF6347 !important;
+  
+}
+
+.navbar {
+  margin: 20px 0;
+  
+}
+
+
+.nav-link:hover {
+ border-top: 3px solid #FF6347;
+ border-bottom: 3px solid #FF6347;
+}
+.navbar-brand {
+}
+
+.nav-item {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .navbar-link {
+  background: #262626;
+  color: #fff;
+}
+
+.mdp {
+  border-top: 3px solid #FF6347;
+  border-bottom: 3px solid #ff6347;
+  font-weight: bold;
+}
+
+/*banner section */
+.banner_header {
+  font-family: Crushed;
+  color: #003366;
+  text-shadow: 1px 1px black;
+}
+
+.banner_main {
+  font-family: Antic Didone;
+  font-weight: bold;
+}
+.banner {
+  
+  background: url("https://res.cloudinary.com/marpenncloud/image/upload/v1564710378/glasses-2947708_1280_nc4mie.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0 200px;
+  
+}
+
+.btnD1 {
+  display: inline-block;
+  margin: 1em 0 0;
+  background: #FFF;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 800;
+}
+
+.btnD1:hover {
+  color: #FF6347;
+  text-decoration: none;
+}
+
+.navbar-light .navbar-toggler {
+  border: 2px solid black;
+  border-radius: 0;
+  outline: none;
+ 
+}
+
+.about {
+  background: url("https://res.cloudinary.com/marpenncloud/image/upload/v1561574186/notebook-1280538_1280_ayzeaf.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0 200px;
+}
+
+.top {
+  margin-top: -100px;
+}
+
+.white-text {
+  color: white;
+}
+
+
+
+.about_header {
+  color: #FF6347;
+  text-shadow: 1px 1px #ff0000;
+}
+.bottom {
+  top: -200px;
+}
+
+/* portfolio section */
+
+.portfolio {
+  background: linear-gradient(#0f2027,
+#203a43,
+#2c5364);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 2px solid black;
+}
+
+.port-head {
+  margin-left: 42%;
+  color: #FF6347;
+  text-shadow: 1px 1px #ff0000;;
+  padding-top: 15px;
+  text-transform: uppercase; 
+}
+
+
+
+.main{
+ margin: 2%;
+}
+
+#allCards{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.card {
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2% 2% 10% 2%;
+     
+    }
+
+.card:hover {
+  border: 3px solid #003366;
+}
+
+@media only screen and (max-width: 900px) {
+  .card {
+    width: 40%; 
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .card {
+    width: 80%; 
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #allCards {
+    margin-left: 70px;
+  }
+}
+
+
+.image img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+
+/* connect secton */
+
+.connect {
+  background: linear-gradient(#0f2027,
+#203a43,
+#2c5364);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 2px solid black;
+}
+
+.connect-head {
+  margin-left: 42%;
+  color: #FF6347;
+  text-shadow: 1px 1px #ff0000;;
+  padding-top: 15px;
+  text-transform: uppercase; 
+}
+.column {
+  
+  width: 16%;
+  padding: 5px;
+  border: 3px solid red;
+  
+}
+
+.connect-row {
+  justify-content: center;
+}
+/* Clear floats after image containers */
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media only screen and (max-width: 900px) {
+  .card {
+    width: 40%; 
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .card {
+    width: 80%; 
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #allCards {
+    margin-left: 70px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .port-head {
+    margin-left: 30%;
+  }
+}
+
+/* footer section */
+
+footer {
+  min-height: 140px;
+  border-top: 2px solid black;
+  margin-bottom: -10px;  
+}
+
+.email {
+  padding-top: 20px;
+}
+
+.copyright {
+  font-weight: bold;
+  text-align: center;
+  background-color: grey;
+  height: 15vh;
+  margin-top: -22px;
+}
